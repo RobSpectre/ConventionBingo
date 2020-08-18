@@ -28,8 +28,12 @@ export default {
   name: 'Header',
   methods: {
     resetBoard () {
-      console.log('Reset board pressed.')
       EventBus.$emit('reset-board', {})
+
+      this.$gtag.event('Click', {
+        event_category: 'Reset',
+        event_label: 'Board'
+      })
     }
   }
 }

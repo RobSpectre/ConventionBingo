@@ -34,6 +34,11 @@ export default {
         }
       })
 
+      this.$gtag.event('Click', {
+        event_category: 'Gameplay',
+        event_label: id
+      })
+
       return id
     },
     loadBoard () {
