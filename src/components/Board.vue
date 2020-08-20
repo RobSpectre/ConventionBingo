@@ -31,12 +31,12 @@ export default {
       this.board.forEach((cell) => {
         if (cell.id === id) {
           cell.selected = true
-        }
-      })
 
-      this.$gtag.event('Click', {
-        event_category: 'Gameplay',
-        event_label: id
+          this.$gtag.event('Click', {
+            event_category: 'Gameplay',
+            event_label: cell.text
+          })
+        }
       })
 
       return id
