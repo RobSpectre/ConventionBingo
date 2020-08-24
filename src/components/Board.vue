@@ -1,10 +1,10 @@
 <template lang="pug">
-  .bg-white.grid.grid-flow-col.grid-cols-5.grid-rows-5.gap-4.p-10.mx-auto
+  #board.bg-white.grid.grid-flow-col.grid-cols-5.grid-rows-5.gap-4.p-10.mx-auto
     div(v-for='cell in board' :key='cell.id' @click='markSquare(cell.id)')
-      .bg-green.m-auto.text-white.flex.items-center.justify-center(v-if='cell.selected' class="sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-32 lg:h-32 w-16 h-16 text-xs p-4 md:text-base lg:text-lg")
+      .bg-green.m-auto.text-white.flex.items-center.justify-center(v-if='cell.selected' class="sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-32 lg:h-32 w-16 h-16 text-xs p-4 md:text-base lg:text-lg" :id="'square-' + cell.id")
         span.inline-block.p-2 {{ cell.text }}
       a(v-else href='#')
-        .bg-gray-500.m-auto.text-white.flex.items-center.justify-center(class="hover:bg-orange focus:outline-none focus:shadow-outline-orange focus:border-orange active:bg-orange sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-32 lg:h-32 w-16 h-16 text-xs p-4 md:text-base lg:text-lg")
+        .bg-gray-500.m-auto.text-white.flex.items-center.justify-center(class="hover:bg-orange focus:outline-none focus:shadow-outline-orange focus:border-orange active:bg-orange sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-32 lg:h-32 w-16 h-16 text-xs p-4 md:text-base lg:text-lg" :id="'square-' + cell.id")
           span.inline-block.p-2 {{ cell.text }}
 </template>
 
