@@ -15,7 +15,7 @@ jobs:
           override-ci-command: npm install
       - run: npm run test:unit
       - codecov/upload:
-        file: coverage/lcov.info
+          file: coverage/lcov.info
 workflows:
   node-tests:
     jobs:
