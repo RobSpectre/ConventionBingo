@@ -1,6 +1,6 @@
 # Convention Bingo 
 
-Quarantine friendly party games where everyone is welcome and anyone can play.
+A Vue.js app to play Bingo during the US Presidential Conventions in 2020.
 
 [![RobSpectre](https://circleci.com/gh/RobSpectre/ConventionBingo.svg?style=svg)](https://app.circleci.com/pipelines/github/RobSpectre/ConventionBingo)
 
