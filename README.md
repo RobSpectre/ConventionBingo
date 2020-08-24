@@ -1,4 +1,9 @@
-# convention-bingo
+# Convention Bingo 
+
+Quarantine friendly party games where everyone is welcome and anyone can play.
+
+[![RobSpectre](https://circleci.com/gh/RobSpectre/ConventionBingo.svg?style=svg)](https://app.circleci.com/pipelines/github/RobSpectre/ConventionBingo)
+
 
 ## Project setup
 ```
@@ -25,5 +30,10 @@ npm run test:unit
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Meta
+
+* Written by [Rob Spectre](http://brooklynhacker.com)
+* This work is licensed under MIT License.
+* Lovingly crafted in the greatest city in the world, New York.
+* No warranty expressed or implied. Software is as is. Diggity.
