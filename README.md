@@ -2,7 +2,7 @@
 
 A Vue.js app to play Bingo during the US Presidential Conventions in 2020.
 
-[![RobSpectre](https://circleci.com/gh/RobSpectre/ConventionBingo.svg?style=svg)](https://app.circleci.com/pipelines/github/RobSpectre/ConventionBingo)
+[![RobSpectre](https://circleci.com/gh/RobSpectre/ConventionBingo.svg?style=svg)](https://app.circleci.com/pipelines/github/RobSpectre/ConventionBingo) [![codecov](https://codecov.io/gh/RobSpectre/ConventionBingo/branch/master/graph/badge.svg)](https://codecov.io/gh/RobSpectre/ConventionBingo)
 
 
 ## Project setup
