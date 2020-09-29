@@ -12,6 +12,11 @@ $heading4Size: 1.0em;
 $lightBackgroundColor: #232323;
 $darkBackgroundColor: #fffff9;
 
+body {
+  background-color: $darkBackgroundColor;
+  height: 100%;
+}
+
 div.has-light-background {
     &, h1, h2, h3, h4 {
         color: $lightBackgroundColor;

@@ -3,7 +3,7 @@
     rounded-t-lg">
     <div class="flex-1 min-w-0">
       <h2 class="text-2xl font-bold leading-7 text-white sm:text-3xl sm:leading-9 sm:truncate">
-        Convention Bingo
+        Debate Bingo
       </h2>
     </div>
     <div class="mt-4 flex md:mt-0 md:ml-4">
