@@ -1,6 +1,6 @@
 <template lang="pug">
   div#app.bg-darkgray.py-4
-    div.container.mx-auto.bg-white.rounded-lg
+    div.container.mx-auto
       Header
       Board
       Footer

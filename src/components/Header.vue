@@ -1,12 +1,6 @@
 <template>
-  <div class="md:flex md:items-center md:justify-between bg-green px-4 py-12
-    rounded-t-lg">
-    <div class="flex-1 min-w-0">
-      <h2 class="text-2xl font-bold leading-7 text-white sm:text-3xl sm:leading-9 sm:truncate">
-        Debate Bingo
-      </h2>
-    </div>
-    <div class="mt-4 flex md:mt-0 md:ml-4">
+  <div id="header" class="px-4 py-12 bg-auto bg-center">
+    <div class="mt-64 inline-block align-middle">
       <span class="ml-3 shadow-sm rounded-md">
         <button type="button" class="inline-flex items-center px-4 py-2 border
           border-transparent text-sm leading-5 font-medium rounded-md
@@ -38,3 +32,10 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+#header {
+  background-image: url('~@/assets/header-1280x400.png');
+  height: 400px;
+}
+</style>
